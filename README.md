@@ -5,27 +5,9 @@
     - install using terminal  as npm package
     - **Step 1:** Create a folder in desktop and open this folder in VS Code
     - **Step 2:** go to terminal and run those command  -
-        
         ```basic
-        pwd
+        npm init playwright@latest
         ```
-        
-        ```basic
-        cd Desktop
-        ```
-        
-        ```basic
-        cd [folder name which is create for playwright]
-        ```
-        
-        ```basic
-        pwd
-        ```
-        
-        ```basic
-        **npm init playwright@latest** 
-        ```
-        
         Run the install command and select the following to get started:
         
         - Choose between TypeScript or JavaScript (default is TypeScript)
@@ -35,7 +17,7 @@
         
     - **Step 3:** Following fill will be added
         - **node_modules:** all libraries are present here(Node, Playwright)
-        - **playwright-report:** test report HTML file provide.[this file will be generate after run a test]
+        - **playwright-report:** test report HTML file provided.[this file will be generate after run a test]
         - **test-results:** test result show in JSON formate.[this file will be generate after run a test]
         - **tests:** all test files.
         - **.gitignore:** to be used during git commit and push
